@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-blue-600 text-white py-3 px-14">
-      <nav className="flex justify-between">
+    <header className="bg-blue-600 text-white ">
+     <div className='container mx-auto'>
+       <nav className="flex justify-between text-md py-2">
         <h1 className="text-xl font-bold">My App</h1>
         <ul className="flex gap-12">
           <li><Link to="/" className="hover:underline">Home</Link></li>
@@ -15,6 +16,7 @@ const Header = () => {
           
         </ul>
       </nav>
+     </div>
     </header>
   );
 };

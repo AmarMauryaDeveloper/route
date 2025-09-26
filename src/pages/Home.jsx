@@ -14,7 +14,7 @@ function Home() {
               <button className="bg-amber-900 text-xl text-amber-50 p-2 hover:bg-blue-600 hover:border-cyan-600 hover:rounded-3xl rounded-xl  border-2 border-amber-400">
                 Connect on LinkedIn
               </button>
-              <button className="bg-amber-900 text-xl text-amber-50 p-2 border-2 border-amber-400  hover:border-cyan-600 hover:rounded-3xl rounded-xl  border-2 border-amber-400">
+              <button className="bg-amber-900 text-xl text-amber-50 p-2  hover:border-cyan-600 hover:rounded-3xl rounded-xl  border-2 border-amber-400">
                 Email me
               </button>
             </div>

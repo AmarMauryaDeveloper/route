@@ -3,15 +3,18 @@ import { Outlet } from 'react-router-dom';
 import Header from './Hader';
 import Footer from './Footer';
 
+
 const Layout = () => {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-1 container mx-auto p-4">
+    <>du
+       <Header />
+      <main className='h-auto h-screen'>
         <Outlet />
       </main>
       <Footer />
-    </div>
+    </>
+   
+
   );
 };
 

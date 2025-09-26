@@ -1,6 +1,31 @@
-// src/pages/About.jsx
-const About = () => {
-  return <h2 className="text-2xl font-semibold">About This App</h2>;
-};
+import React from "react";
+import Card from "../components/Card";
+
+function About({img,title}) {
+  return (
+    <div className="bg-violet-400 h-screen">
+      <div className="container mx-auto">
+        <div className="pt-36" >
+          <p className="py-4 text-xl font-bold">Introduction</p>
+          <h1 className=" text-6xl font-extrabold py-4">Overview.</h1>
+          <p className="text-lg w-[54%]">
+            I'm a skilled software developer with expertise in React.js,
+            Next.js, Node.js, Express.js, Firebase, Google Cloud, and MongoDB.
+            With strong problem-solving abilities and a solid foundation in data
+            structures, algorithms, and data analytics, I build efficient,
+            scalable, and user-friendly solutions. I'm a quick learner and
+            collaborate closely with clients to turn ideas into reality. Let’s
+            build something amazing together!
+          </p>
+          <div className="flex">
+            <Card img=""title=""/>
+            <Card img=""title=""/>
+            <Card img=""title=""/>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default About;
