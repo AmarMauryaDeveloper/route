@@ -19,7 +19,7 @@ function Home() {
               </button>
             </div>
           </div>
-          <div className="h-56 w-96">
+          <div className="h-56 w-96 py-10">
             <img src={imm} alt="" />
           </div>
         </div>
